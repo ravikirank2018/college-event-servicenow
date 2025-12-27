@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config/>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <disable_interoperable>false</disable_interoperable>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent display_value="Additional Details">61701c42db4af2102bdc3e3b59fdec3b</macroponent>
+        <macroponent_config>{&#13;
+    "sysId" : {&#13;
+    "type" : "CONTEXT_BINDING",&#13;
+    "binding" : {&#13;
+      "address" : [ "sysId" ],&#13;
+      "category" : "props"&#13;
+    }&#13;
+  },&#13;
+  "label" : {&#13;
+    "type" : "TRANSLATION_LITERAL",&#13;
+    "value" : {&#13;
+      "code" : null,&#13;
+      "message" : "",&#13;
+      "comment" : ""&#13;
+    }&#13;
+  },&#13;
+  "bare" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : true&#13;
+  },&#13;
+  "scrollable" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : "none"&#13;
+  },&#13;
+  "headerLevel" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : "1"&#13;
+  },&#13;
+  "headingOnlyVisibleToScreenReaders" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : false&#13;
+  },&#13;
+  "interceptNotifications" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : false&#13;
+  },&#13;
+  "propagateNotifications" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : false&#13;
+  }&#13;
+}</macroponent_config>
+        <name>Additional Details Default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Record Page(task)">65701c42bb4af2102ed955c6ccff9749</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Additional Details">6d701c42b94af210ec5a4ee0f1509e3f</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 09:26:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>61701c42eb4af210352008f20e12be14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Additional Details Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="x_event_mgmt_student" source="x_1054588_x_even_0">cb7143e18302721038159370ceaad3b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_update_name>sys_ux_screen_61701c42eb4af210352008f20e12be14</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 09:26:32</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=61701c42eb4af210352008f20e12be14"/>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>CONTENT_UPDATED_RELAY_61701c425d4af210f5a071310c73414d</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Content Updated Relay</label>
+        <props>[{"name":"params","label":"Optionals Parameters","fieldType":"json","valueType":"string"}]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 09:26:32</sys_created_on>
+        <sys_id>6d701c42d24af210f0ee2d73c7ea4320</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Content Updated Relay</sys_name>
+        <sys_package display_value="x_event_mgmt_student" source="x_1054588_x_even_0">cb7143e18302721038159370ceaad3b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_update_name>sys_ux_event_6d701c42d24af210f0ee2d73c7ea4320</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 09:26:32</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=6d701c42d24af210f0ee2d73c7ea4320"/>
+</record_update>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">491198c2834af21038159370ceaad3e9</canvas>
+        <component display_value="Heading">1f6e0643eca7a637e36bd7833549ec9e</component>
+        <component_props>{"variant":"header-primary","label":"Happening Now","wontWrap":false,"hasNoMargin":false,"level":"1","filterConfigurations":[],"noDebounce":"","contextMenuActions":[]}</component_props>
+        <h>3</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 09:29:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4d11d8c2834af21038159370ceaad317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="x_event_mgmt_student" source="x_1054588_x_even_0">cb7143e18302721038159370ceaad3b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_update_name>par_dashboard_widget_4d11d8c2834af21038159370ceaad317</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 09:29:10</sys_updated_on>
+        <visualization/>
+        <w>47</w>
+        <widget_props/>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</application>
+        <file_path/>
+        <instance_id>016761861b528290168f4089bd4bcb18</instance_id>
+        <instance_name>dev272834</instance_name>
+        <name>par_dashboard_widget_4d11d8c2834af21038159370ceaad317</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">491198c2834af21038159370ceaad3e9</canvas><component display_value="Heading">1f6e0643eca7a637e36bd7833549ec9e</component><component_props>{"variant":"header-primary","label":"Happening Now","wontWrap":false,"hasNoMargin":false,"level":"1","filterConfigurations":[],"noDebounce":"","contextMenuActions":[]}</component_props><h>3</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-27 09:29:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4d11d8c2834af21038159370ceaad317</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="x_event_mgmt_student" source="x_1054588_x_even_0">cb7143e18302721038159370ceaad3b0</sys_package><sys_policy/><sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope><sys_update_name>par_dashboard_widget_4d11d8c2834af21038159370ceaad317</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-27 09:29:10</sys_updated_on><visualization/><w>47</w><widget_props/><x>0</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-1918692652</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>3bec840683c6f21038159370ceaad384</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 09:29:10</sys_created_on>
+        <sys_id>4111d8c2834af21038159370ceaad31b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b5f23f6480000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 09:29:10</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>0111d8c2eb4af210e2034fe7416f551a</update_guid>
+        <update_guid_history>0111d8c2eb4af210e2034fe7416f551a:-1918692652</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">15111cc2834af21038159370ceaad30d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 09:29:12</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>ad356cc5a95844ba9fcfc3616648f484</sys_id>
+        <sys_metadata>4d11d8c2834af21038159370ceaad317</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="x_event_mgmt_student" source="x_1054588_x_even_0">cb7143e18302721038159370ceaad3b0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_scope_delete display_value="">7391c77917834379b23c8bc1cb575d01</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_4d11d8c2834af21038159370ceaad317</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_4d11d8c2834af21038159370ceaad317">4111d8c2834af21038159370ceaad31b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 09:29:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

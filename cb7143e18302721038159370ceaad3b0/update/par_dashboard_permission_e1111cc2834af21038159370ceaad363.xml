@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="x_event_mgmt_student">b81198c2834af21038159370ceaad3c5</dashboard>
+        <group/>
+        <owner>false</owner>
+        <role display_value="x_1054588_x_even_0.admin" name="x_1054588_x_even_0.admin">c37143e18302721038159370ceaad3fd</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 09:29:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e1111cc2834af21038159370ceaad363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b81198c2834af21038159370ceaad3c5</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="x_event_mgmt_student" source="x_1054588_x_even_0">cb7143e18302721038159370ceaad3b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_update_name>par_dashboard_permission_e1111cc2834af21038159370ceaad363</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 09:29:12</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>

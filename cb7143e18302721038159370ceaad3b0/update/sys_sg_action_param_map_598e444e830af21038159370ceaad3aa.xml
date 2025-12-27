@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="New Button (College Event Management System)">dd8e444e830af21038159370ceaad38c</button>
+        <item_parameter display_value="College Event Management System budget">d98e444e830af21038159370ceaad377</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 09:18:00</sys_created_on>
+        <sys_id>598e444e830af21038159370ceaad3aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d98e444e830af21038159370ceaad377</sys_name>
+        <sys_package display_value="x_event_mgmt_student" source="x_1054588_x_even_0">cb7143e18302721038159370ceaad3b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_598e444e830af21038159370ceaad3aa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 09:18:00</sys_updated_on>
+        <ui_parameter display_value="Budget">118e444e830af21038159370ceaad38e</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

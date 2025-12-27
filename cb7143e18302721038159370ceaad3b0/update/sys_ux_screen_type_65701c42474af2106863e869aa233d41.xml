@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="INSERT_OR_UPDATE">
+        <description/>
+        <name>Indicate your decision</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 09:26:35</sys_created_on>
+        <sys_id>65701c42474af2106863e869aa233d41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Indicate your decision</sys_name>
+        <sys_package display_value="x_event_mgmt_student" source="x_1054588_x_even_0">cb7143e18302721038159370ceaad3b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_update_name>sys_ux_screen_type_65701c42474af2106863e869aa233d41</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 09:26:35</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_translated_text action="delete_multiple" query="documentkey=65701c42474af2106863e869aa233d41"/>
+</record_update>

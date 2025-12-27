@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="ad42cb258302721038159370ceaad36e" label="College Event" max_length="40" name="x_1054588_x_even_0_college_event" type="collection">
+    <element db_object_id="ad42cb258302721038159370ceaad36e" label="College Event" max_length="40" name="x_1054588_x_even_0_college_event" text_index="true" type="collection">
         <element choice="1" label="Event Type" max_length="40" name="event_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Technical" sequence="0" value="Technical"/>

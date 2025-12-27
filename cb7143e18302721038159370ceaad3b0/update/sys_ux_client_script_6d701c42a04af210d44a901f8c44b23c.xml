@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Search Page">69701c42ae4af2101d4e20d91c9b8e3d</macroponent>
+        <name>breadcrumbs_1/items</name>
+        <preset/>
+        <required_translations>[
+    {
+        "message": "Home"
+    }
+]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {TransformApiHelpers} params.helpers
+ */
+function evaluateProperty({
+    api,
+    helpers
+}) {
+    return [{
+            "label": helpers.translateSync("Home"),
+            "icon": "home-outline",
+            "hideLabel": false
+        },
+        {
+            "label": "Search results"
+        }
+    ];
+
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 09:26:34</sys_created_on>
+        <sys_id>6d701c42a04af210d44a901f8c44b23c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>breadcrumbs_1/items</sys_name>
+        <sys_package display_value="x_event_mgmt_student" source="x_1054588_x_even_0">cb7143e18302721038159370ceaad3b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_update_name>sys_ux_client_script_6d701c42a04af210d44a901f8c44b23c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 09:26:34</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+</record_update>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="e5701c42424af2102c09c38065081c4f" sys_domain="global" table="sysapproval_approver" version="3" view="3_custom_portal_approval_x_1054588_x_even_0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-27 09:26:30</sys_created_on>
+            <sys_id>69701c429c4af210f9df416926cd854e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sysapproval_approver" sys_domain="global" view="65701c42ae4af210c33c12ea03ae524e">e5701c42424af2102c09c38065081c4f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-27 09:26:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sysapproval</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-27 09:26:30</sys_created_on>
+            <sys_id>21701c424c4af2101bff11b0b1069e4f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sysapproval_approver" sys_domain="global" view="65701c42ae4af210c33c12ea03ae524e">e5701c42424af2102c09c38065081c4f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-27 09:26:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>sysapproval_approver</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-27 09:26:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e5701c42424af2102c09c38065081c4f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sysapproval_approver</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="x_event_mgmt_student" source="x_1054588_x_even_0">cb7143e18302721038159370ceaad3b0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+            <sys_update_name>sys_ui_section_e5701c42424af2102c09c38065081c4f</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-27 09:26:30</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="3_custom_portal_approval_x_1054588_x_even_0" name="3_custom_portal_approval_x_1054588_x_even_0">65701c42ae4af210c33c12ea03ae524e</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</application>
+        <file_path/>
+        <instance_id>016761861b528290168f4089bd4bcb18</instance_id>
+        <instance_name>dev272834</instance_name>
+        <name>sys_ui_section_e5701c42424af2102c09c38065081c4f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="e5701c42424af2102c09c38065081c4f" sys_domain="global" table="sysapproval_approver" version="3" view="3_custom_portal_approval_x_1054588_x_even_0"><sys_ui_element action="INSERT_OR_UPDATE"><element>comments</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-27 09:26:30</sys_created_on><sys_id>69701c429c4af210f9df416926cd854e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sysapproval_approver" sys_domain="global" view="65701c42ae4af210c33c12ea03ae524e">e5701c42424af2102c09c38065081c4f</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-27 09:26:30</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>sysapproval</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-27 09:26:30</sys_created_on><sys_id>21701c424c4af2101bff11b0b1069e4f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sysapproval_approver" sys_domain="global" view="65701c42ae4af210c33c12ea03ae524e">e5701c42424af2102c09c38065081c4f</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-27 09:26:30</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>sysapproval_approver</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-27 09:26:30</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e5701c42424af2102c09c38065081c4f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sysapproval_approver</sys_name><sys_overrides/><sys_package display_value="x_event_mgmt_student" source="x_1054588_x_even_0">cb7143e18302721038159370ceaad3b0</sys_package><sys_policy/><sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope><sys_update_name>sys_ui_section_e5701c42424af2102c09c38065081c4f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-27 09:26:30</sys_updated_on><sys_user/><title>false</title><view display_value="3_custom_portal_approval_x_1054588_x_even_0" name="3_custom_portal_approval_x_1054588_x_even_0">65701c42ae4af210c33c12ea03ae524e</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1697484429</payload_hash>
+        <record_name>Approval</record_name>
+        <reverted_from/>
+        <source>95e301098302321038159370ceaad332</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2025-12-24 10:37:16</sys_created_on>
+        <sys_id>70d01c4e830af21038159370ceaad34b</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>19b4fef37600000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Form Layout</type>
+        <update_guid>30d01c4e600af2100d8394a45b21694b</update_guid>
+        <update_guid_history>30d01c4e600af2100d8394a45b21694b:1697484429</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 09:28:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>3c690742c7474ff2981e16682b427544</sys_id>
+        <sys_metadata>e5701c42424af2102c09c38065081c4f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sysapproval_approver</sys_name>
+        <sys_package display_value="x_event_mgmt_student" source="x_1054588_x_even_0">cb7143e18302721038159370ceaad3b0</sys_package>
+        <sys_parent display_value="Sysapproval Approver">67f434e9bc3432108bb2f58e8d11a115</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_scope_delete display_value="">7391c77917834379b23c8bc1cb575d01</sys_scope_delete>
+        <sys_update_name>sys_ui_section_e5701c42424af2102c09c38065081c4f</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_e5701c42424af2102c09c38065081c4f">70d01c4e830af21038159370ceaad34b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 09:28:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

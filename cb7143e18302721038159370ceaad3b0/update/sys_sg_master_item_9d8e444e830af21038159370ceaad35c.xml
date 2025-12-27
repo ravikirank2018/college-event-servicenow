@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="INSERT_OR_UPDATE">
+        <condition_order/>
+        <datasource_table>x_1054588_x_even_0_college_event</datasource_table>
+        <datasource_table_condition/>
+        <embedded_screen display_value="College Event Management System Form Screen">5d8e444e830af21038159370ceaad354</embedded_screen>
+        <item_view/>
+        <name>College Event Management System Form Screen Master Item</name>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 09:18:00</sys_created_on>
+        <sys_id>9d8e444e830af21038159370ceaad35c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>College Event Management System Form Screen Master Item</sys_name>
+        <sys_package display_value="x_event_mgmt_student" source="x_1054588_x_even_0">cb7143e18302721038159370ceaad3b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_update_name>sys_sg_master_item_9d8e444e830af21038159370ceaad35c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 09:18:00</sys_updated_on>
+        <use_view_config>true</use_view_config>
+        <view_config display_value="College Event Management System List Screen View Config">c58e044e830af21038159370ceaad38c</view_config>
+    </sys_sg_master_item>
+</record_update>

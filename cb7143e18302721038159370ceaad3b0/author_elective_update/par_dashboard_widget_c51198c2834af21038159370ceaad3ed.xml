@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">491198c2834af21038159370ceaad3e9</canvas>
+        <component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component>
+        <component_props>{"scoreSize":"md","headingPosition":"top","sparklineStyle":"area","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":true,"enableRealTimeUpdate":true,"showZero":true,"colorConfig":{"type":"default"},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"College Event","sourceType":"table","tableOrViewName":"x_1054588_x_even_0_college_event","filterQuery":"","id":"tablex_1054588_x_even_0_college_event1766827750389","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"headerTitle":"Unassigned Tasks","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"dataPassthrough":null,"metrics":[{"dataSource":"tablex_1054588_x_even_0_college_event1766827750389","id":"tablex_1054588_x_even_0_college_event17668277503891766827750391","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableDrilldown":true,"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","dateFormat":"default","hideMatrixAggregate":false,"newReporting":false,"filterConfigurations":[],"noDebounce":"","contextMenuActions":[]}</component_props>
+        <h>9</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 09:29:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c51198c2834af21038159370ceaad3ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="x_event_mgmt_student" source="x_1054588_x_even_0">cb7143e18302721038159370ceaad3b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_update_name>par_dashboard_widget_c51198c2834af21038159370ceaad3ed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 09:29:10</sys_updated_on>
+        <visualization/>
+        <w>16</w>
+        <widget_props/>
+        <x>16</x>
+        <y>3</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</application>
+        <file_path/>
+        <instance_id>016761861b528290168f4089bd4bcb18</instance_id>
+        <instance_name>dev272834</instance_name>
+        <name>par_dashboard_widget_c51198c2834af21038159370ceaad3ed</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">491198c2834af21038159370ceaad3e9</canvas><component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component><component_props>{"scoreSize":"md","headingPosition":"top","sparklineStyle":"area","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":true,"enableRealTimeUpdate":true,"showZero":true,"colorConfig":{"type":"default"},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"College Event","sourceType":"table","tableOrViewName":"x_1054588_x_even_0_college_event","filterQuery":"","id":"tablex_1054588_x_even_0_college_event1766827750389","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"headerTitle":"Unassigned Tasks","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"dataPassthrough":null,"metrics":[{"dataSource":"tablex_1054588_x_even_0_college_event1766827750389","id":"tablex_1054588_x_even_0_college_event17668277503891766827750391","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableDrilldown":true,"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","dateFormat":"default","hideMatrixAggregate":false,"newReporting":false,"filterConfigurations":[],"noDebounce":"","contextMenuActions":[]}</component_props><h>9</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-27 09:29:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c51198c2834af21038159370ceaad3ed</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="x_event_mgmt_student" source="x_1054588_x_even_0">cb7143e18302721038159370ceaad3b0</sys_package><sys_policy/><sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope><sys_update_name>par_dashboard_widget_c51198c2834af21038159370ceaad3ed</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-27 09:29:10</sys_updated_on><visualization/><w>16</w><widget_props/><x>16</x><y>3</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>1872921095</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>3bec840683c6f21038159370ceaad384</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 09:29:10</sys_created_on>
+        <sys_id>091198c2834af21038159370ceaad3ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b5f23f5c90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 09:29:10</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>851198c2864af21082cc54a0fa9033fe</update_guid>
+        <update_guid_history>851198c2864af21082cc54a0fa9033fe:1872921095</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">a5111cc2834af21038159370ceaad32f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 09:29:12</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>6097ce90912e4c4f81dadf3c7902fc71</sys_id>
+        <sys_metadata>c51198c2834af21038159370ceaad3ed</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="x_event_mgmt_student" source="x_1054588_x_even_0">cb7143e18302721038159370ceaad3b0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_scope_delete display_value="">7391c77917834379b23c8bc1cb575d01</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_c51198c2834af21038159370ceaad3ed</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_c51198c2834af21038159370ceaad3ed">091198c2834af21038159370ceaad3ff</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 09:29:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

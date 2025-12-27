@@ -1,8 +1,11 @@
-# 🎓 College Event Management System – ServiceNow
+# College Event Management System – ServiceNow
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2afe8902-3745-475b-8ee5-c2946cd0b8cf" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e68558cd-7372-4869-935b-a649651bbdb5" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/322a3702-8afa-4155-be14-b973629c0080" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/678b1028-c338-49b2-9dff-aa2d9aa049aa" />
 
-## 📌 Project Overview
+
+
+##  Project Overview
 The **College Event Management System** is a custom application built on the **ServiceNow App Engine** platform.  
 It helps colleges manage event requests, approvals, and tracking in a structured and automated way across **web and mobile interfaces**.
 
@@ -10,7 +13,7 @@ This project demonstrates my hands-on understanding of **ServiceNow fundamentals
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Allow students or staff to raise **college event requests**
 - Capture important event details in a single form
 - Automatically handle **event approval status**
@@ -19,7 +22,7 @@ This project demonstrates my hands-on understanding of **ServiceNow fundamentals
 
 ---
 
-## 🛠️ Technologies & Platform
+## Technologies & Platform
 - **Platform:** ServiceNow (App Engine Studio)
 - **Language:** JavaScript (Business Rules)
 - **Tools Used:**
@@ -33,19 +36,19 @@ This project demonstrates my hands-on understanding of **ServiceNow fundamentals
 
 ---
 
-## 🗂️ Application Details
+## Application Details
 
-### 🔹 Application Name
+### Application Name
 **College Event Management System**
 
-### 🔹 Application Scope
+### Application Scope
 `x_event_mgmt_student`
 
 ---
 
-## 📊 Data Model
+## Data Model
 
-### 📁 Table: College Event
+### Table: College Event
 Custom table created to store event request details.
 
 **Key Fields:**
@@ -59,22 +62,29 @@ Custom table created to store event request details.
 
 ---
 
-## 🖥️ User Interface Features (Web)
+## User Interface Features (Web)
 
-### 🔹 Custom Form
-- Clean and simple event request form
-- User-friendly layout for fresh users
+### Custom Form
+- Clean and simple event request form designed using table-driven UI
+- User-friendly layout optimized for fresh users
 
-### 🔹 UI Policy (No Script)
+### UI Policy (No Script)
 **Goal:** Hide Budget field until Event Type is selected  
 - Improves form clarity
-- Reduces user confusion
+- Reduces user confusion by displaying fields only when required
+
+### Workspace Experience
+- Configured a **Workspace-based interface** for managing College Event records
+- Enabled users to **create, view, and update event requests** within a unified workspace
+- Improved productivity with **contextual record views and streamlined navigation**
+- Provided a modern and responsive UI compared to classic forms
+
 
 ---
 
-## 📱 Mobile Experience
+## Mobile Experience
 
-### 🔹 Mobile User Interface
+### Mobile User Interface
 - Created a **mobile-friendly interface** using **ServiceNow App Engine Studio**
 - Configured a **record-based mobile experience** for the College Event table
 - Enabled users to **create, view, and track event requests** using the **ServiceNow Mobile App**
@@ -85,9 +95,9 @@ This mobile experience improves accessibility and allows users to manage event r
 
 ---
 
-## 🔄 Automation Logic
+## Automation Logic
 
-### 🔹 Approval Logic (Simple Flow)
+### Approval Logic (Simple Flow)
 - Event record is created
 - Event status initially set to **Requested**
 - Approval request is generated for admin/manager
@@ -97,9 +107,9 @@ This mobile experience improves accessibility and allows users to manage event r
 
 ---
 
-## ⚙️ Business Rule
+##  Business Rule
 
-### 🔹 Auto Update Status on Approval
+### Auto Update Status on Approval
 **Type:** After Insert / Update  
 **Purpose:**
 - Automatically update event status based on approval state
@@ -111,13 +121,13 @@ This mobile experience improves accessibility and allows users to manage event r
 
 ---
 
-## 👤 User Roles
+##  User Roles
 - **Requester:** Creates event request (Web & Mobile)
 - **Approver (Admin/Manager):** Reviews and approves/rejects events
 
 ---
 
-## 🧪 Testing
+##  Testing
 - Created multiple event records via web and mobile
 - Verified UI Policy behavior
 - Tested approval flow and status updates
@@ -126,7 +136,7 @@ This mobile experience improves accessibility and allows users to manage event r
 
 ---
 
-## 📈 Key Learnings
+## Key Learnings
 - ServiceNow Application Scope & Tables
 - UI Policies vs Client Scripts
 - Business Rule execution timing
@@ -136,16 +146,15 @@ This mobile experience improves accessibility and allows users to manage event r
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 - Email and mobile push notifications on approval/rejection
 - Role-based access control
-- Dashboards and reports
 - SLA tracking for approvals
 - Calendar integration for approved events
 
 ---
 
-## 📄 Resume Summary (One Line)
+##  Summary (One Line)
 > Developed a ServiceNow-based College Event Management application with web and mobile interfaces using App Engine Studio, including automated approvals, UI policies, and business rules.
 
 ---

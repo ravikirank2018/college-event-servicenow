@@ -159,12 +159,12 @@ This mobile experience improves accessibility and allows users to manage event r
 
 ---
 
-## 👨‍💻 Author
+##  Author
 **Ravi Kiran K**  
 ServiceNow CSA & CAD Certified  
 Fresher | ServiceNow Developer  
 
 ---
 
-## 🔗 Notes
+##  Notes
 This project was developed as part of **hands-on learning and interview preparation**, focusing on real-world ServiceNow concepts suitable for fresher-level roles.

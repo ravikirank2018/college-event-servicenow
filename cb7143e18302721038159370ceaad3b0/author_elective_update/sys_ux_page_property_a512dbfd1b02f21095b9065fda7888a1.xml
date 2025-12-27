@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="">e112dbfd2402f2102450cc9e1c1a8e96</page>
+        <required_translations>[]</required_translations>
+        <route display_value="Login">a512dbfde102f21099efcae783f1d3cd</route>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 04:54:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>a512dbfd1b02f21095b9065fda7888a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="x_event_mgmt_student" source="x_1054588_x_even_0">cb7143e18302721038159370ceaad3b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_update_name>sys_ux_page_property_a512dbfd1b02f21095b9065fda7888a1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 04:54:02</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1054588_x_even_0.e112dbfd2402f2102450cc9e1c1a8e96.route.chrome_header.a512dbfde102f21099efcae783f1d3cd</unique_name>
+        <value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false,&#13;
+       "userPrefsEnabled": false,&#13;
+       "menuEnabled": false&#13;
+    },&#13;
+    "publicPage":{&#13;
+       "searchEnabled": false,&#13;
+       "userPrefsEnabled": false,&#13;
+       "menuEnabled": false&#13;
+    }&#13;
+ }</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</application>
+        <file_path/>
+        <instance_id>016761861b528290168f4089bd4bcb18</instance_id>
+        <instance_name>dev272834</instance_name>
+        <name>sys_ux_page_property_a512dbfd1b02f21095b9065fda7888a1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_header</name><page display_value="">e112dbfd2402f2102450cc9e1c1a8e96</page><required_translations>[]</required_translations><route display_value="Login">a512dbfde102f21099efcae783f1d3cd</route><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-27 04:54:02</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>a512dbfd1b02f21095b9065fda7888a1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_header</sys_name><sys_package display_value="x_event_mgmt_student" source="x_1054588_x_even_0">cb7143e18302721038159370ceaad3b0</sys_package><sys_policy/><sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope><sys_update_name>sys_ux_page_property_a512dbfd1b02f21095b9065fda7888a1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-27 04:54:02</sys_updated_on><type>json</type><unique_name>x_1054588_x_even_0.e112dbfd2402f2102450cc9e1c1a8e96.route.chrome_header.a512dbfde102f21099efcae783f1d3cd</unique_name><value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false,&#13;
+       "userPrefsEnabled": false,&#13;
+       "menuEnabled": false&#13;
+    },&#13;
+    "publicPage":{&#13;
+       "searchEnabled": false,&#13;
+       "userPrefsEnabled": false,&#13;
+       "menuEnabled": false&#13;
+    }&#13;
+ }</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>-627865082</payload_hash>
+        <record_name>chrome_header</record_name>
+        <reverted_from/>
+        <source>95e301098302321038159370ceaad332</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2025-12-24 10:37:16</sys_created_on>
+        <sys_id>a403d7b18342f21038159370ceaad3ef</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>19b4fef37600000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>6403d7b11f42f2100fc1316a0a975bef</update_guid>
+        <update_guid_history>6403d7b11f42f2100fc1316a0a975bef:-627865082</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 04:57:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>5dfc540973ba4d36a8644e3f41807464</sys_id>
+        <sys_metadata>a512dbfd1b02f21095b9065fda7888a1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="x_event_mgmt_student" source="x_1054588_x_even_0">cb7143e18302721038159370ceaad3b0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_scope_delete display_value="">7391c77917834379b23c8bc1cb575d01</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_a512dbfd1b02f21095b9065fda7888a1</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_a512dbfd1b02f21095b9065fda7888a1">a403d7b18342f21038159370ceaad3ef</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 04:57:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource">
+    <sys_ux_composite_data_m2m_datasource action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Landing - Popular Articles">a112dbfd5202f210a2062d33da7bfeb6</dataset>
+        <datasource display_value="Custom Portal Landing - Popular articles Datasource">ad12dbfd9602f2102a823b7b14ac0fb4</datasource>
+        <sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 04:54:02</sys_created_on>
+        <sys_id>a512dbfd5702f210a1bb9d944cda07b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="x_event_mgmt_student" source="x_1054588_x_even_0">cb7143e18302721038159370ceaad3b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_a512dbfd5702f210a1bb9d944cda07b1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 04:54:02</sys_updated_on>
+    </sys_ux_composite_data_m2m_datasource>
+</record_update>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>085707edf60272108a1d501a6a9492cb</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes>{"login":"login","logout": "login"}</auth_routes>
+        <page/>
+        <parent_app display_value="Portal UI Template Parent App">de0b852eb0c88210f8774b320398b357</parent_app>
+        <path>xeventmgmtstudent</path>
+        <root_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-26 09:28:30</sys_created_on>
+        <sys_id>045707ed09027210b3447cd432a1c6cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_event_mgmt_student</sys_name>
+        <sys_package display_value="x_event_mgmt_student" source="x_1054588_x_even_0">cb7143e18302721038159370ceaad3b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_update_name>sys_ux_page_registry_045707ed09027210b3447cd432a1c6cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-26 09:28:30</sys_updated_on>
+        <title>x_event_mgmt_student</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</application>
+        <file_path/>
+        <instance_id>016761861b528290168f4089bd4bcb18</instance_id>
+        <instance_name>dev272834</instance_name>
+        <name>sys_ux_page_registry_045707ed09027210b3447cd432a1c6cb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>085707edf60272108a1d501a6a9492cb</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes>{"login":"login","logout": "login"}</auth_routes><page/><parent_app display_value="Portal UI Template Parent App">de0b852eb0c88210f8774b320398b357</parent_app><path>xeventmgmtstudent</path><root_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-26 09:28:30</sys_created_on><sys_id>045707ed09027210b3447cd432a1c6cb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_event_mgmt_student</sys_name><sys_package display_value="x_event_mgmt_student" source="x_1054588_x_even_0">cb7143e18302721038159370ceaad3b0</sys_package><sys_policy/><sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope><sys_update_name>sys_ux_page_registry_045707ed09027210b3447cd432a1c6cb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-26 09:28:30</sys_updated_on><title>x_event_mgmt_student</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>2132437603</payload_hash>
+        <record_name>x_event_mgmt_student</record_name>
+        <reverted_from/>
+        <source>95e301098302321038159370ceaad332</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2025-12-24 10:37:16</sys_created_on>
+        <sys_id>d1b7c7218342721038159370ceaad3ab</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>19b4fef37600000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Application</type>
+        <update_guid>91b7c721af4272105a18021a7e8b1eab</update_guid>
+        <update_guid_history>91b7c721af4272105a18021a7e8b1eab:2132437603</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-26 09:30:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>0f991e9782fa48af890359ced027ee69</sys_id>
+        <sys_metadata>045707ed09027210b3447cd432a1c6cb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_event_mgmt_student</sys_name>
+        <sys_package display_value="x_event_mgmt_student" source="x_1054588_x_even_0">cb7143e18302721038159370ceaad3b0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_scope_delete display_value="">7391c77917834379b23c8bc1cb575d01</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_045707ed09027210b3447cd432a1c6cb</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_045707ed09027210b3447cd432a1c6cb">d1b7c7218342721038159370ceaad3ab</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-26 09:30:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

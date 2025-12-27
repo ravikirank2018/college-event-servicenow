@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-26 09:06:30</sys_created_on>
+        <sys_id>57428f258302721038159370ceaad352</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1054588_x_even_0_college_event.x_1054588_x_even_0.user</sys_name>
+        <sys_package display_value="x_event_mgmt_student" source="x_1054588_x_even_0">cb7143e18302721038159370ceaad3b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_security_acl display_value="x_1054588_x_even_0_college_event">d3428f258302721038159370ceaad34d</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_57428f258302721038159370ceaad352</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-26 09:06:30</sys_updated_on>
+        <sys_user_role display_value="x_1054588_x_even_0.user" name="x_1054588_x_even_0.user">137183e18302721038159370ceaad317</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

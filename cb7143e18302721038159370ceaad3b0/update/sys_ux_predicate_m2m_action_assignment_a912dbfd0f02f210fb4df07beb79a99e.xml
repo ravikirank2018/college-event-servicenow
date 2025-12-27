@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_predicate_m2m_action_assignment">
+    <sys_ux_predicate_m2m_action_assignment action="INSERT_OR_UPDATE">
+        <declarative_action_assignment display_value="approve">2912dbfdde02f2100134ef7281e42ddd</declarative_action_assignment>
+        <predicate display_value="My tasks requested item">a512dbfd0502f21068d1ab4f3f8f9eaa</predicate>
+        <sys_class_name>sys_ux_predicate_m2m_action_assignment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 04:54:01</sys_created_on>
+        <sys_id>a912dbfd0f02f210fb4df07beb79a99e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="x_event_mgmt_student" source="x_1054588_x_even_0">cb7143e18302721038159370ceaad3b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_update_name>sys_ux_predicate_m2m_action_assignment_a912dbfd0f02f210fb4df07beb79a99e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 04:54:01</sys_updated_on>
+    </sys_ux_predicate_m2m_action_assignment>
+</record_update>

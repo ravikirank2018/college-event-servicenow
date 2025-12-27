@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Public">2512dbfd5b02f2104bc5cbc1bb6fbcdf</applicability>
+        <order>0</order>
+        <screen display_value="Login Default">a512dbfd6302f210c46ce4a4c05d2dd2</screen>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 04:54:00</sys_created_on>
+        <sys_id>a912dbfd9702f21044c88ad5511c59d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="x_event_mgmt_student" source="x_1054588_x_even_0">cb7143e18302721038159370ceaad3b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_a912dbfd9702f21044c88ad5511c59d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 04:54:00</sys_updated_on>
+    </sys_ux_applicability_m2m_screen>
+</record_update>

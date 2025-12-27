@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ad42cb258302721038159370ceaad36e" label="College Event" max_length="40" name="x_1054588_x_even_0_college_event" type="collection">
+        <element choice="1" label="Event Type" max_length="40" name="event_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Technical" sequence="0" value="Technical"/>
+                <element inactive_on_update="false" label="Cultural" sequence="1" value="Cultural"/>
+                <element inactive_on_update="false" label="Sports" sequence="2" value="Sports"/>
+            </choice>
+        </element>
+        <element label="Event Name" max_length="40" name="event_name" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Venue" max_length="40" name="venue" type="string"/>
+        <element label="Event Date" max_length="255" name="event_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Rejected" value="Rejected"/>
+                <element inactive_on_update="false" label="Draft" value="Draft"/>
+                <element inactive_on_update="false" label="Approved" value="Approved"/>
+                <element inactive_on_update="false" label="-- New choice --" value="-- New choice --"/>
+            </choice>
+        </element>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Rejected" sequence="2" value="Rejected"/>
+                <element inactive_on_update="false" label="Approved" sequence="1" value="Approved"/>
+                <element inactive_on_update="false" label="Requested" sequence="0" value="Requested"/>
+                <element inactive_on_update="false" label="Completed" sequence="3" value="Completed"/>
+            </choice>
+        </element>
+        <element label="Requested By" max_length="32" name="requested_by" reference="sys_user" type="reference"/>
+        <element label="Budget" max_length="255" name="budget" type="integer"/>
+        <index name="index">
+            <element name="requested_by"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

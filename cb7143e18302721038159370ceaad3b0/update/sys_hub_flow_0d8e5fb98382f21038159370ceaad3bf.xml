@@ -1,0 +1,939 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=7527000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>college_event_approval_flow</internal_name>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛College Event Record","reference":"x_1054588_x_even_0_college_event","reference_display":"College Event","type":"reference","base_type":"reference","usedInstances":{"7e376a1a-a6a8-41af-aba3-2e219828aae0":["record"],"630a4a66-8fb5-4557-a129-adedbb0257ed":["record"],"eae7df0c-1c1c-44f1-9f6e-9c8a238126c7":["record"],"1b8dff67-3981-44a2-ad5f-a97904c89d43":["record"],"ccfee3e3-2fd7-4de5-9017-3b3afb317d79":["record"],"28047b73-3fd8-49d3-b8bd-26a747513296":["record"]},"attributes":{}},{"name":"{{static.62826bf03710200044e0bfc8bcbe5df1}}","label":"Abel Tuter","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","choices":[{"order":0.0}],"usedInstances":{"7e376a1a-a6a8-41af-aba3-2e219828aae0":["approval_conditions"]}},{"name":"{{static.6816f79cc0a8016401c5a33be04be441}}","label":"System Administrator","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"7e376a1a-a6a8-41af-aba3-2e219828aae0":["approval_conditions"],"1b8dff67-3981-44a2-ad5f-a97904c89d43":["approval_conditions"]}},{"name":"7e376a1a-a6a8-41af-aba3-2e219828aae0.approval_state","label":"1➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"order":0.0}],"usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1b8dff67-3981-44a2-ad5f-a97904c89d43.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"9258ca15-6a44-4db0-9840-3d8174756679":["condition"],"d5f8a05b-156d-4b12-8698-715867cdd05a":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>fe3b77358386f21038159370ceaad331</master_snapshot>
+        <master_snapshot_digest/>
+        <name>College Event Approval Flow</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>4b3b77358386f21038159370ceaad37e</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 05:48:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0d8e5fb98382f21038159370ceaad3bf</sys_id>
+        <sys_mod_count>43</sys_mod_count>
+        <sys_name>College Event Approval Flow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="x_event_mgmt_student" source="x_1054588_x_even_0">cb7143e18302721038159370ceaad3b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_update_name>sys_hub_flow_0d8e5fb98382f21038159370ceaad3bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 07:53:44</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record display_value="Created 2025-12-26 23:53:46">db3bb7358386f21038159370ceaad368</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=0d8e5fb98382f21038159370ceaad3bf"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0d8e5fb98382f21038159370ceaad3bf"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1054588_x_even_0_college_event">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 07:53:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4b3b77358386f21038159370ceaad37e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 07:53:44</sys_updated_on>
+        <table>x_1054588_x_even_0_college_event</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>0d8e5fb98382f21038159370ceaad3bf</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 07:53:44</sys_created_on>
+        <sys_id>073b77358386f21038159370ceaad380</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 07:53:44</sys_updated_on>
+        <trigger display_value="">4b3b77358386f21038159370ceaad37e</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=0d8e5fb98382f21038159370ceaad3bf^sys_idNOT IN073b77358386f21038159370ceaad380"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=0d8e5fb98382f21038159370ceaad3bf"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=0d8e5fb98382f21038159370ceaad3bf^sys_idNOT IN8d8e5fb98382f21038159370ceaad3c3"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>0d8e5fb98382f21038159370ceaad3bf</id>
+        <name>College Event Approval Flow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 05:48:16</sys_created_on>
+        <sys_id>8d8e5fb98382f21038159370ceaad3c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 05:48:16</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=8d8e5fb98382f21038159370ceaad3c3"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=0d8e5fb98382f21038159370ceaad3bf^sys_idNOT IN78ae57f98382f21038159370ceaad3c1,ecae57f98382f21038159370ceaad386"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="College Event Approval Flow">0d8e5fb98382f21038159370ceaad3bf</model>
+        <model_id>0d8e5fb98382f21038159370ceaad3bf</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_0d8e5fb98382f21038159370ceaad3bf</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 05:48:47</sys_created_on>
+        <sys_id>78ae57f98382f21038159370ceaad3c1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 07:53:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=78ae57f98382f21038159370ceaad3c1"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="College Event Approval Flow">0d8e5fb98382f21038159370ceaad3bf</model>
+        <model_id>0d8e5fb98382f21038159370ceaad3bf</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_0d8e5fb98382f21038159370ceaad3bf</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 05:48:47</sys_created_on>
+        <sys_id>ecae57f98382f21038159370ceaad386</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 07:53:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ecae57f98382f21038159370ceaad386"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=0d8e5fb98382f21038159370ceaad3bf"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0d8e5fb98382f21038159370ceaad3bf"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=0d8e5fb98382f21038159370ceaad3bf^sys_idNOT IN423333358346f21038159370ceaad3cf"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="College Event Approval Flow">0d8e5fb98382f21038159370ceaad3bf</flow>
+        <generation_source/>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 07:18:43</sys_created_on>
+        <sys_id>423333358346f21038159370ceaad3cf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 07:53:43</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VY227jNhD9FUFPLeACutixnbet40UDpAnqeNuHIBUoaWgLpSlXopR4F/n3DnWzLMmOL3LqvAQQSXPOHJ45Q+bph8qIDUy9VqfEZqB2VI8LCDhh09UScFjIYYuThZxbEO4S4Qcr9VoEEXRUGviLKSyWjAhcTAkLcdAPXAjUa72jxoRF8LgKb13cCX+fbJPtqWbT+P1q6Vqv2xsMrFcLYuCWZjk+YzCD5FPgUtcLMcjqz+wXo3RaGWfTztxjbgBcvX567qhLEmAgIUH8qEwJzMraSFm5T3PzJEaHOmRogOaYumkYmmYMurp9Zdq64ZoENA3XVfmq5CQaaFsTAq8CuAtuwVWN0QCI+8DZqlgxxwNJ2VuQ19D7jrsPNLmOAmblQDpXfFoZU+mwM/c9Bx6WwvN5OpLiTCd9Fi34fYpfcgyUREzkHONIFOJ+sJSQJYgMEX2c+y+TPOBXjyfZZZPMdwgrvogQgWdHAkJ5FNRjeChWyk3oR0GCfjIePUxurL++TEe/jSfWZPw4ndyOpuMb9S3Jy/o3kjumCDMsVprOWyGMrx4weYDhKrTwJDtq6ATeUnxxhBfnynzrrNU+8rnrJazUFO/kU+Gm4vPsd0le07aK3ilFzIX/9/iPurbTweMUPSpjTxR9dUWIC2SLom1aUnSZkwbQooGect67tJ2N7CPurqb9T/LOLO1YdS98F9jNejsVJ2cz1LvHl5GQbL0QLkJL+BZxXavEo1yKmN6Te5rb27vaDiKOP7CK86grPKGt4O/OCxHuE9Znzk2yJc7Tu2zLScQVHw8O/yhOFCA1Qskdj94uyCxjlD4CA0eUREC/heWv370w9PishLoImnBQi1mEQzEpeUpp7PDE4M9tlned9LhCZqXMj6/x/PSS+tZ1Sm2ghtaX1a1rpk11ra/1CHVNTXOMUn3XIW7FLipCOUudH1blYSJRtocgq8Rn4LVyjewlrnhTmTkJUjiZmYzagaa3BM2Q0CqmaB7kioVY0+GbTc3uSq3luwJxY4K/cPc1xz19kTL/BQ35CE+0ifPPLPAj7lZNSu6peFxZr1B+yvj7uUV/pH4AuwFsrrgkZ1zTnguX8NXZPNGkuj2ELmhohSa6oN0bDm2HGJT2r/pg6BVPXINrRPwpvPAdDcZNIt7mi41yiptUeIAjngCw5o4HAzzdFzO5NrpiOvc5/O9ljs9rhBpYTDpczQZnzHMhn2vXA2qh43XVt+UDd1lSMjodDJ2e3u87fXz1oAvQLthE7xo9MuxfmYNexQVq8HZBFw1sfchbSL5vJZAtDvEtnbqsZ/85pRyCELJxHd7POd54k9+QNEipp8pjURKj8QPl3ue/3K7XKY+ArTJ5ELfV2PdBIQ9WOS8M2xfz2s0CQ/+K4xuh5Y10CysX9ySriCTezPVMTzLoDnpDajYbDx02Gc8a4nbwF38R2bNu4q0V2HQj2bcM4sZq2nqFOELYFfGU7xY7Lj9tkaK3TopxPlLMky9ceYVufYceA/YTNbbktnFKd5MxwfJp2dJvfAUnFAyieFTJ/j8JrmKvFDEHpJThzRoDKjL6qV5e7i11KIWCPxZIelev9TgcVrJr1eW1r4oUPuIFDW6f9HrmlrvzsPqCboL5ThYX38wOrpW4qfR2drTD9q3u2djTSkLe1Mme3arVrJtb1mlZNzat97I+vR3tev83oLjQRvP8HwBqLx7wHwAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=0d8e5fb98382f21038159370ceaad3bf^sys_idNOT IN15baf3f18386f21038159370ceaad329,435333358346f21038159370ceaad340,87b43ff58346f21038159370ceaad3ea"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="College Event Approval Flow">0d8e5fb98382f21038159370ceaad3bf</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>83f70a72-542e-41d5-a48c-0236508dd50c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 07:51:26</sys_created_on>
+        <sys_id>15baf3f18386f21038159370ceaad329</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 07:56:03</sys_updated_on>
+        <ui_id>28047b73-3fd8-49d3-b8bd-26a747513296</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVXW/aMBT9K8jPKEoIIMrbBEOa1LUSnfrSVZZj34An52O2Q2GI/76bxAkRoI5KfUHj7X7Z5x7OiV/2RAoyJUMQfnAXjHkYhOHA9weTYRCNwygYiJABBKRPUpYAdmrgmRYYb5gqysR+P9PALAgaeLzQGlJ7OGBdSJMrtnt2bZjha6kE1sn05bVPcqbxRAuaTPcnpWshKRaBwtZlg+kUo93lZSwyXiSIi8omee8m567S+zbHCg6VcAK/T2BrIRWAQGKmDPRJwlLBbKZ3ZGp1gQlcWjymatd2rGVq60UTtjXyD9489Mu+GHAz7khoQ+oIqtPxnFn2hCdzW+iWr0xyMDUnAmJWKDvr5uqGx9zKLK1HLItUM52pIkkfakZIe0Dn/ygMgoC83LNEXq8VP62zt2UDciHTihK3oso4U23ErNUyKmwJZ09AQcVxwvJcpiua62wjq2GEkngrhYEXq+wN7zRylXqMl7g9ZJV5C8zPq/Qz07Jc4jseg8OHPjE7M1PMmOMqyCH9XZRI6sXcCrRioaKAVkooh7mWuf2CV23AAT/0neij0XsK43dHQXXOPAp/SwN/NBxNJnRLYQMp9SlyrmAFVWjPPTCry72vrvwxQ1wBtzHEj0oGl+E7T5zl7ruzvYe64Bwx+jRHTG7JEW6Nm7fEv4zgD9791HaUVGnfdExgLH76fxa+H4ol/AKO78C57i83fUz9V2Bs1L+QoIS5ALqRPiSIzgKtlziRvyv2nl2xfRQ+zQPB2K9+N+SE/+ZteP0LDdLlbxIJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=15baf3f18386f21038159370ceaad329"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
+        <display_text/>
+        <flow display_value="College Event Approval Flow">0d8e5fb98382f21038159370ceaad3bf</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 07:19:20</sys_created_on>
+        <sys_id>435333358346f21038159370ceaad340</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 07:56:03</sys_updated_on>
+        <ui_id>1b8dff67-3981-44a2-ad5f-a97904c89d43</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1YXW/iOBT9K8jPlHXIB4G3qmylWe3OSG1nXkoVOfYN9cokTOJ0ykb897mJHcJAy9Bd+tDtvCD5Xl/n3JNz7JjbikhBJmQUJkMYj4c0dih1KQ19TkMXYncUjFzGKemTlC0AZ+bAs1zg+IGpsg5U1UUOTIOInAEv8xxSvV5jXshiqdjqi52GEX4vlcA8mdze9cmS5biihpxMqp3UsZAUi0Hh1KsW0y5GvVrWY5HxcoG4ItkG/7SVU5vpfZhiBotqOLRP4FFDKgBxJEwV0CcLlgqms3xFJjovMYA9i0+pWm1m3MtUmz4X7LGQ/+CD3WE9LwFsjFsONsPI8mPCyZRpdo0rc13mG7oyyaEwlAhIWKn0xXbMTPi01DJLTYlmsWqrM1Uu0o+GELJZYOt1lAWCgGXdZ43ctJVc32ffrlqQlzJtGLEtqowztRkxrXMZl7qGUxFQ0FC8YMulTOfRMs8eZFOMUBaDucLBIFHZN3xmIefpgPEa9wBZZYNLjE+b8BeWy7qJv3AZLF73SbEqLhQriq4V5DD6WtZITGO2hahhwVBQ1/FcLvU5PuUBLOZ138o95ge1xTspmeU6tT9GDvU9PwyjxwgeII1ohEwrmEMz1PvCvzDp3u82/TIXHIG0dcGNhbqD3HqgGUZN7kcLNGW9jyZhHeAcdoCNdBYw2nnCASF9Qw6wbb15C/xM/eAFro8/o8SlztChIQRhyMeU8TAIfM/tNIQIsAemInzVBa7d+eAEG/wRMFppn1scvasWx7MArdwLfDHpfEfq123Qynz4Qpk/v9M7wXsSeilvdlg2kT2eX8cR9eM+p/JrCR9qHQXDOBjTUJyJhMZnXuj6Z4wDPYPA8cEXAfcd9xVcRJ1DO7MInxBpIkGJ05roCBR7Jrq0MJ6DZy3UDJ86MZr6nRPjdFYKKX1LXnpPn038oNhg6+D4Oyvz9HUUfwSIVvF/GBS7gt8F92/07v7S+/9f755/UGpbH9ubPZRnqZA14mJL9WbnheJcqc+3VVVopiUfBKETJKMx55SF1Ak86nCfuW4M1IvB85z1+m7fLv9lqZf57IjmN/fvUkHxMzKsy7ovNlu07bTuO88mrdu8U93I35jZ3suNhB/UWjLutCVKJIjp7St5NSMG9oxMZiTNUpiR/ozUs6JaXE0YZyC4TaKJVdV6bSJlzuwCztawqxZsVTQzC34PArXZRH+IRI0ZbPwU/38dwUnrv2kJvakhZZ+m9kLU4jS8yL1T7tpOaFb67UZun3b+yU4775f9TnH9idpttD7KcPc7oSfvvgMOK3w8FBYAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=435333358346f21038159370ceaad340"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="College Event Approval Flow">0d8e5fb98382f21038159370ceaad3bf</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>d5f8a05b-156d-4b12-8698-715867cdd05a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 07:25:21</sys_created_on>
+        <sys_id>87b43ff58346f21038159370ceaad3ea</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 07:56:03</sys_updated_on>
+        <ui_id>ccfee3e3-2fd7-4de5-9017-3b3afb317d79</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVTW/iMBT8K8jnKEr4EuVWwSKt1G2ldsWlW1lO/AKWHCdrOxQW8d/3JXFCBKhLpV7QcvP7cGaGmeR1TwQnUzIEHoR34TgehINBPwj6k2EYjQdR2OcDBhASjyiWAk5qiDPN8bxhsigL+/1MA7PAaejHhdag7OGAfS5MLtlu6cawEq+F5Ngn09c3j+RM440WNJnuT1rXQpIsAomjzw2mU4x2l5dnnsVFirioaIoPbnPuOr3vc+zgUgknDDwCWwuKAwJJmDTgkZQpzmymd2RqdYEFJM2flNy1E2uhbE00ZVsj/uCTh0E5lwAyi50I7ZE6gepyMmeWveDNsS10q1cmYjC1JhwSVkg769bqgafcikzVK5ZFstnOZJGqx1oR0l7Q+T8KgyAgL3mWyGtaycs6e39uQC6EqiRxFGUWM9memLVaRIUt4ewJSKg0TlmeC7Wiuc42olpGKKm/knjwE5m94zONWCmfxSVuH1Vl/gLr86q8ZFqUJH7gNbh88IjZmZlkxhypoIb0d1EiqYk5CrRSoZKAVk4ol2MtcnuPj9qAA37wnOmj0UcOi++OhurceTT+lobBaDiaTOiWwgYUDShqLmEF1dGeZ2BWt3vfXPtzgbgCbhOIn5UNLsN3mTirPXR3e491wyVi9GWJmNxSIhyNm4/Ev4IQ9D981XacVHnfdEJgLL76fxVBMOD3eckP+LnvLw99zv1XYGzcvxAgubkAurE+pIjOAq1JnNjfNXtL12w/Cl+WgXAcVL8bSsJ/8214+wuQao1bEgkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=87b43ff58346f21038159370ceaad3ea"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=0d8e5fb98382f21038159370ceaad3bf"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=0d8e5fb98382f21038159370ceaad3bf^sys_idNOT IN526473f58346f21038159370ceaad3a9,949a7bf98346f21038159370ceaad309"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">7a3b37358386f21038159370ceaad3da</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="College Event Approval Flow">0d8e5fb98382f21038159370ceaad3bf</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 07:23:55</sys_created_on>
+        <sys_id>526473f58346f21038159370ceaad3a9</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 07:53:43</sys_updated_on>
+        <ui_id>d5f8a05b-156d-4b12-8698-715867cdd05a</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8lYJnWdDTsXwLWgQo0DZAE+TSBsKKpGyiFKmSlBPX8L93qYdtNA5qFDn2Jg25uzOjWWhHdOfaztl7fW2tWCmy/PYYEKE8hs87IhhZkjqCOi5oTNNkniZRlCyyuJqnVZywFDikJCAKGo43qVZMOKFV2QMB2YDs/AE+MmFbCduHI0LXQjLDx6ktGKxx3JDl7o8jt215KaHiEgvvnBFqheWXcpsK30/k3n3qkddZ+3mI22mSNszTiqOA8GfHFeM4ugZpeUAaUAycNtsDYjiwWyWPwFooNyhu4NmKX9g7yXN/seaokY52HF7L0arJJS0ov209wQFxUMnJQi27Rn0ZdHiTeQ2ddCcmdxb78daT9ixGSvXdWj99nQbeCNULHA+lpiAPb+DQhqpz3PoPwyVvsFHZQNuiOWVr9Eb0xcilCVcSX8Ja6icc6hMVAvXEQ/QIwhvEP/TwAxjhVXzGNlg80KzAClr26cN2zqCEfW9L+bPzhAaBo5RycAMvWGpE665xzoaPrPfBGN0C8jqPo/x8PLL5mRCcpHa3i6sFq+v51SwtFvEsyyCZAcvrGRRXRZTRRcGyNEQN6ALI0jpwfL//3kVRygYUk/Ii+m/V9i325wKDXuzPedNeWZrkL0vjP/OFOxNF0f+lOV0aYcsh/KO2fvg/78yjD/4wwQ65YZwKi0TuPfZx+iv4gy0GQNBT6EmbH17CEdv/BlV+3XtfBgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">323b37358386f21038159370ceaad3df</block>
+        <comment/>
+        <connected_to>d5f8a05b-156d-4b12-8698-715867cdd05a</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="College Event Approval Flow">0d8e5fb98382f21038159370ceaad3bf</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 07:50:49</sys_created_on>
+        <sys_id>949a7bf98346f21038159370ceaad309</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 07:53:43</sys_updated_on>
+        <ui_id>83f70a72-542e-41d5-a48c-0236508dd50c</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=0d8e5fb98382f21038159370ceaad3bf"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=0d8e5fb98382f21038159370ceaad3bf"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_0d8e5fb98382f21038159370ceaad3bf</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 05:48:48</sys_created_on>
+        <sys_id>38ae57f98382f21038159370ceaad3c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="x_event_mgmt_student" source="x_1054588_x_even_0">cb7143e18302721038159370ceaad3b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 05:48:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_0d8e5fb98382f21038159370ceaad3bf</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 05:48:47</sys_created_on>
+        <sys_id>b8ae57f98382f21038159370ceaad3bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="x_event_mgmt_student" source="x_1054588_x_even_0">cb7143e18302721038159370ceaad3b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 05:48:47</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_0d8e5fb98382f21038159370ceaad3bf"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_0d8e5fb98382f21038159370ceaad3bf"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>college_event_approval_flow</internal_name>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛College Event Record","reference":"x_1054588_x_even_0_college_event","reference_display":"College Event","type":"reference","base_type":"reference","usedInstances":{"7e376a1a-a6a8-41af-aba3-2e219828aae0":["record"],"630a4a66-8fb5-4557-a129-adedbb0257ed":["record"],"eae7df0c-1c1c-44f1-9f6e-9c8a238126c7":["record"],"1b8dff67-3981-44a2-ad5f-a97904c89d43":["record"],"ccfee3e3-2fd7-4de5-9017-3b3afb317d79":["record"],"28047b73-3fd8-49d3-b8bd-26a747513296":["record"]},"attributes":{}},{"name":"{{static.62826bf03710200044e0bfc8bcbe5df1}}","label":"Abel Tuter","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","choices":[{"order":0.0}],"usedInstances":{"7e376a1a-a6a8-41af-aba3-2e219828aae0":["approval_conditions"]}},{"name":"{{static.6816f79cc0a8016401c5a33be04be441}}","label":"System Administrator","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"7e376a1a-a6a8-41af-aba3-2e219828aae0":["approval_conditions"],"1b8dff67-3981-44a2-ad5f-a97904c89d43":["approval_conditions"]}},{"name":"7e376a1a-a6a8-41af-aba3-2e219828aae0.approval_state","label":"1➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"order":0.0}],"usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1b8dff67-3981-44a2-ad5f-a97904c89d43.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"9258ca15-6a44-4db0-9840-3d8174756679":["condition"],"d5f8a05b-156d-4b12-8698-715867cdd05a":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>College Event Approval Flow</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="College Event Approval Flow">0d8e5fb98382f21038159370ceaad3bf</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 07:53:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fe3b77358386f21038159370ceaad331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 07:53:44</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=fe3b77358386f21038159370ceaad331"/>
+    <sys_variable_value action="delete_multiple" query="document_key=fe3b77358386f21038159370ceaad331"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=fe3b77358386f21038159370ceaad331"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=fe3b77358386f21038159370ceaad331^sys_idNOT INfe3b77358386f21038159370ceaad332"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>fe3b77358386f21038159370ceaad331</id>
+        <name>College Event Approval Flow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 07:53:44</sys_created_on>
+        <sys_id>fe3b77358386f21038159370ceaad332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 07:53:44</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=fe3b77358386f21038159370ceaad332"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=fe3b77358386f21038159370ceaad331^sys_idNOT IN433b77358386f21038159370ceaad348,f23b77358386f21038159370ceaad335"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="College Event Approval Flow">fe3b77358386f21038159370ceaad331</model>
+        <model_id>fe3b77358386f21038159370ceaad331</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_fe3b77358386f21038159370ceaad331</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 07:53:44</sys_created_on>
+        <sys_id>433b77358386f21038159370ceaad348</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 07:53:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=433b77358386f21038159370ceaad348"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="College Event Approval Flow">fe3b77358386f21038159370ceaad331</model>
+        <model_id>fe3b77358386f21038159370ceaad331</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_fe3b77358386f21038159370ceaad331</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 07:53:44</sys_created_on>
+        <sys_id>f23b77358386f21038159370ceaad335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 07:53:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f23b77358386f21038159370ceaad335"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=fe3b77358386f21038159370ceaad331"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fe3b77358386f21038159370ceaad331"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=fe3b77358386f21038159370ceaad331^sys_idNOT INc73b77358386f21038159370ceaad364"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="College Event Approval Flow">fe3b77358386f21038159370ceaad331</flow>
+        <generation_source/>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 07:53:44</sys_created_on>
+        <sys_id>c73b77358386f21038159370ceaad364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 07:53:44</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VY227jNhD9FUFPLeACutixnbet40UDpAnqeNuHIBUoaWgLpSlXopR4F/n3DnWzLMmOL3LqvAQQSXPOHJ45Q+bph8qIDUy9VqfEZqB2VI8LCDhh09UScFjIYYuThZxbEO4S4Qcr9VoEEXRUGviLKSyWjAhcTAkLcdAPXAjUa72jxoRF8LgKb13cCX+fbJPtqWbT+P1q6Vqv2xsMrFcLYuCWZjk+YzCD5FPgUtcLMcjqz+wXo3RaGWfTztxjbgBcvX567qhLEmAgIUH8qEwJzMraSFm5T3PzJEaHOmRogOaYumkYmmYMurp9Zdq64ZoENA3XVfmq5CQaaFsTAq8CuAtuwVWN0QCI+8DZqlgxxwNJ2VuQ19D7jrsPNLmOAmblQDpXfFoZU+mwM/c9Bx6WwvN5OpLiTCd9Fi34fYpfcgyUREzkHONIFOJ+sJSQJYgMEX2c+y+TPOBXjyfZZZPMdwgrvogQgWdHAkJ5FNRjeChWyk3oR0GCfjIePUxurL++TEe/jSfWZPw4ndyOpuMb9S3Jy/o3kjumCDMsVprOWyGMrx4weYDhKrTwJDtq6ATeUnxxhBfnynzrrNU+8rnrJazUFO/kU+Gm4vPsd0le07aK3ilFzIX/9/iPurbTweMUPSpjTxR9dUWIC2SLom1aUnSZkwbQooGect67tJ2N7CPurqb9T/LOLO1YdS98F9jNejsVJ2cz1LvHl5GQbL0QLkJL+BZxXavEo1yKmN6Te5rb27vaDiKOP7CK86grPKGt4O/OCxHuE9Znzk2yJc7Tu2zLScQVHw8O/yhOFCA1Qskdj94uyCxjlD4CA0eUREC/heWv370w9PishLoImnBQi1mEQzEpeUpp7PDE4M9tlned9LhCZqXMj6/x/PSS+tZ1Sm2ghtaX1a1rpk11ra/1CHVNTXOMUn3XIW7FLipCOUudH1blYSJRtocgq8Rn4LVyjewlrnhTmTkJUjiZmYzagaa3BM2Q0CqmaB7kioVY0+GbTc3uSq3luwJxY4K/cPc1xz19kTL/BQ35CE+0ifPPLPAj7lZNSu6peFxZr1B+yvj7uUV/pH4AuwFsrrgkZ1zTnguX8NXZPNGkuj2ELmhohSa6oN0bDm2HGJT2r/pg6BVPXINrRPwpvPAdDcZNIt7mi41yiptUeIAjngCw5o4HAzzdFzO5NrpiOvc5/O9ljs9rhBpYTDpczQZnzHMhn2vXA2qh43XVt+UDd1lSMjodDJ2e3u87fXz1oAvQLthE7xo9MuxfmYNexQVq8HZBFw1sfchbSL5vJZAtDvEtnbqsZ/85pRyCELJxHd7POd54k9+QNEipp8pjURKj8QPl3ue/3K7XKY+ArTJ5ELfV2PdBIQ9WOS8M2xfz2s0CQ/+K4xuh5Y10CysX9ySriCTezPVMTzLoDnpDajYbDx02Gc8a4nbwF38R2bNu4q0V2HQj2bcM4sZq2nqFOELYFfGU7xY7Lj9tkaK3TopxPlLMky9ceYVufYceA/YTNbbktnFKd5MxwfJp2dJvfAUnFAyieFTJ/j8JrmKvFDEHpJThzRoDKjL6qV5e7i11KIWCPxZIelev9TgcVrJr1eW1r4oUPuIFDW6f9HrmlrvzsPqCboL5ThYX38wOrpW4qfR2drTD9q3u2djTSkLe1Mme3arVrJtb1mlZNzat97I+vR3tev83oLjQRvP8HwBqLx7wHwAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=fe3b77358386f21038159370ceaad331^sys_idNOT IN0f3b77358386f21038159370ceaad360,4f3b77358386f21038159370ceaad361,cf3b77358386f21038159370ceaad35e"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="College Event Approval Flow">fe3b77358386f21038159370ceaad331</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>d5f8a05b-156d-4b12-8698-715867cdd05a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 07:53:44</sys_created_on>
+        <sys_id>0f3b77358386f21038159370ceaad360</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 07:53:44</sys_updated_on>
+        <ui_id>ccfee3e3-2fd7-4de5-9017-3b3afb317d79</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVTW/iMBT8K8jnKEr4EuVWwSKt1G2ldsWlW1lO/AKWHCdrOxQW8d/3JXFCBKhLpV7QcvP7cGaGmeR1TwQnUzIEHoR34TgehINBPwj6k2EYjQdR2OcDBhASjyiWAk5qiDPN8bxhsigL+/1MA7PAaejHhdag7OGAfS5MLtlu6cawEq+F5Ngn09c3j+RM440WNJnuT1rXQpIsAomjzw2mU4x2l5dnnsVFirioaIoPbnPuOr3vc+zgUgknDDwCWwuKAwJJmDTgkZQpzmymd2RqdYEFJM2flNy1E2uhbE00ZVsj/uCTh0E5lwAyi50I7ZE6gepyMmeWveDNsS10q1cmYjC1JhwSVkg769bqgafcikzVK5ZFstnOZJGqx1oR0l7Q+T8KgyAgL3mWyGtaycs6e39uQC6EqiRxFGUWM9memLVaRIUt4ewJSKg0TlmeC7Wiuc42olpGKKm/knjwE5m94zONWCmfxSVuH1Vl/gLr86q8ZFqUJH7gNbh88IjZmZlkxhypoIb0d1EiqYk5CrRSoZKAVk4ol2MtcnuPj9qAA37wnOmj0UcOi++OhurceTT+lobBaDiaTOiWwgYUDShqLmEF1dGeZ2BWt3vfXPtzgbgCbhOIn5UNLsN3mTirPXR3e491wyVi9GWJmNxSIhyNm4/Ev4IQ9D981XacVHnfdEJgLL76fxVBMOD3eckP+LnvLw99zv1XYGzcvxAgubkAurE+pIjOAq1JnNjfNXtL12w/Cl+WgXAcVL8bSsJ/8214+wuQao1bEgkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0f3b77358386f21038159370ceaad360"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="College Event Approval Flow">fe3b77358386f21038159370ceaad331</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>83f70a72-542e-41d5-a48c-0236508dd50c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 07:53:44</sys_created_on>
+        <sys_id>4f3b77358386f21038159370ceaad361</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 07:53:44</sys_updated_on>
+        <ui_id>28047b73-3fd8-49d3-b8bd-26a747513296</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVXW/aMBT9K8jPKEoIIMrbBEOa1LUSnfrSVZZj34An52O2Q2GI/76bxAkRoI5KfUHj7X7Z5x7OiV/2RAoyJUMQfnAXjHkYhOHA9weTYRCNwygYiJABBKRPUpYAdmrgmRYYb5gqysR+P9PALAgaeLzQGlJ7OGBdSJMrtnt2bZjha6kE1sn05bVPcqbxRAuaTPcnpWshKRaBwtZlg+kUo93lZSwyXiSIi8omee8m567S+zbHCg6VcAK/T2BrIRWAQGKmDPRJwlLBbKZ3ZGp1gQlcWjymatd2rGVq60UTtjXyD9489Mu+GHAz7khoQ+oIqtPxnFn2hCdzW+iWr0xyMDUnAmJWKDvr5uqGx9zKLK1HLItUM52pIkkfakZIe0Dn/ygMgoC83LNEXq8VP62zt2UDciHTihK3oso4U23ErNUyKmwJZ09AQcVxwvJcpiua62wjq2GEkngrhYEXq+wN7zRylXqMl7g9ZJV5C8zPq/Qz07Jc4jseg8OHPjE7M1PMmOMqyCH9XZRI6sXcCrRioaKAVkooh7mWuf2CV23AAT/0neij0XsK43dHQXXOPAp/SwN/NBxNJnRLYQMp9SlyrmAFVWjPPTCry72vrvwxQ1wBtzHEj0oGl+E7T5zl7ruzvYe64Bwx+jRHTG7JEW6Nm7fEv4zgD9791HaUVGnfdExgLH76fxa+H4ol/AKO78C57i83fUz9V2Bs1L+QoIS5ALqRPiSIzgKtlziRvyv2nl2xfRQ+zQPB2K9+N+SE/+ZteP0LDdLlbxIJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4f3b77358386f21038159370ceaad361"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
+        <display_text/>
+        <flow display_value="College Event Approval Flow">fe3b77358386f21038159370ceaad331</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 07:53:44</sys_created_on>
+        <sys_id>cf3b77358386f21038159370ceaad35e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 07:53:44</sys_updated_on>
+        <ui_id>1b8dff67-3981-44a2-ad5f-a97904c89d43</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1YXW/iOBT9K8jPlHXIB4G3qmylWe3OSG1nXkoVOfYN9cokTOJ0ykb897mJHcJAy9Bd+tDtvCD5Xl/n3JNz7JjbikhBJmQUJkMYj4c0dih1KQ19TkMXYncUjFzGKemTlC0AZ+bAs1zg+IGpsg5U1UUOTIOInAEv8xxSvV5jXshiqdjqi52GEX4vlcA8mdze9cmS5biihpxMqp3UsZAUi0Hh1KsW0y5GvVrWY5HxcoG4ItkG/7SVU5vpfZhiBotqOLRP4FFDKgBxJEwV0CcLlgqms3xFJjovMYA9i0+pWm1m3MtUmz4X7LGQ/+CD3WE9LwFsjFsONsPI8mPCyZRpdo0rc13mG7oyyaEwlAhIWKn0xXbMTPi01DJLTYlmsWqrM1Uu0o+GELJZYOt1lAWCgGXdZ43ctJVc32ffrlqQlzJtGLEtqowztRkxrXMZl7qGUxFQ0FC8YMulTOfRMs8eZFOMUBaDucLBIFHZN3xmIefpgPEa9wBZZYNLjE+b8BeWy7qJv3AZLF73SbEqLhQriq4V5DD6WtZITGO2hahhwVBQ1/FcLvU5PuUBLOZ138o95ge1xTspmeU6tT9GDvU9PwyjxwgeII1ohEwrmEMz1PvCvzDp3u82/TIXHIG0dcGNhbqD3HqgGUZN7kcLNGW9jyZhHeAcdoCNdBYw2nnCASF9Qw6wbb15C/xM/eAFro8/o8SlztChIQRhyMeU8TAIfM/tNIQIsAemInzVBa7d+eAEG/wRMFppn1scvasWx7MArdwLfDHpfEfq123Qynz4Qpk/v9M7wXsSeilvdlg2kT2eX8cR9eM+p/JrCR9qHQXDOBjTUJyJhMZnXuj6Z4wDPYPA8cEXAfcd9xVcRJ1DO7MInxBpIkGJ05roCBR7Jrq0MJ6DZy3UDJ86MZr6nRPjdFYKKX1LXnpPn038oNhg6+D4Oyvz9HUUfwSIVvF/GBS7gt8F92/07v7S+/9f755/UGpbH9ubPZRnqZA14mJL9WbnheJcqc+3VVVopiUfBKETJKMx55SF1Ak86nCfuW4M1IvB85z1+m7fLv9lqZf57IjmN/fvUkHxMzKsy7ovNlu07bTuO88mrdu8U93I35jZ3suNhB/UWjLutCVKJIjp7St5NSMG9oxMZiTNUpiR/ozUs6JaXE0YZyC4TaKJVdV6bSJlzuwCztawqxZsVTQzC34PArXZRH+IRI0ZbPwU/38dwUnrv2kJvakhZZ+m9kLU4jS8yL1T7tpOaFb67UZun3b+yU4775f9TnH9idpttD7KcPc7oSfvvgMOK3w8FBYAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=cf3b77358386f21038159370ceaad35e"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=fe3b77358386f21038159370ceaad331"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=fe3b77358386f21038159370ceaad331^sys_idNOT IN833b77358386f21038159370ceaad35d,cb3b77358386f21038159370ceaad35a"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">323b37358386f21038159370ceaad3df</block>
+        <comment/>
+        <connected_to>d5f8a05b-156d-4b12-8698-715867cdd05a</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="College Event Approval Flow">fe3b77358386f21038159370ceaad331</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 07:53:44</sys_created_on>
+        <sys_id>833b77358386f21038159370ceaad35d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 07:53:44</sys_updated_on>
+        <ui_id>83f70a72-542e-41d5-a48c-0236508dd50c</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">7a3b37358386f21038159370ceaad3da</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="College Event Approval Flow">fe3b77358386f21038159370ceaad331</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 07:53:44</sys_created_on>
+        <sys_id>cb3b77358386f21038159370ceaad35a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 07:53:44</sys_updated_on>
+        <ui_id>d5f8a05b-156d-4b12-8698-715867cdd05a</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8lYJnWdDTsX0LHAQokDZAE+TSBsKKpGyiFKmKlB1X8L93Kcmy0biog+bYmznk7s6MduCW6MZWjTWP+toYsVJk8fXZI0I5DH+3RDCyIEUARTinIY2jaRwFQTRLwnwa52HEYuAQE48oKDm+pFoxYYVWWQd4ZAOycRf4kwlTSdg9HRG6FpLVfJhaQY01ltdk0f52dSkLCTmX+HR5oPHhrkP+zM/uKocbWwu1Gs53Q5eHA6hr5liFgUf4i+WKceRTgDTcIyUoBlbXuxGpObB7JY/AWijbCy7hxYifODBKU/ew4CiRDm6Mx2xwqoeLG7CAVBpqm3o0TgvKTW8O4wU00i5Psf7BfeWk9iUWcnmo1rIp1efeETI2OPkwjUESvHJKHfVBR/Gw1tsvB5a3QnWuDJdSU5DjCSx6lzfW8WkJl7zERlkJVYWOZlWtN6IrRi6lv5J48AuptzjUbaEP1BH30VjwbxG/6eAnqIVT8QnbYHFPMwcjaNZtLLZDmzjZe8TszFKCMUeR6G72o3EUe8mDuKz3x5XQWlT2Gidv+KBj7w0BmENapGGQnl+9ZHpmwU52v23DfMaKYno1ieezcJIkEE2ApcUE5lfzIKGzOUtiH1WhLyAzY8Hy/f5bEwQx61FcuFcBeq+2b0vhBVa8SuF5e94Svegv0XPf/cLkBUHwP3r/HD1hsj4wg7Zu+Dsm79nFp585ek2FQWqPDvt4+IdyFztcLkFPoa2uvztRR2z/C6kVXFDrBgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=fe3b77358386f21038159370ceaad331"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=fe3b77358386f21038159370ceaad331"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_fe3b77358386f21038159370ceaad331</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 07:53:44</sys_created_on>
+        <sys_id>833b77358386f21038159370ceaad344</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="x_event_mgmt_student" source="x_1054588_x_even_0">cb7143e18302721038159370ceaad3b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 07:53:44</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_fe3b77358386f21038159370ceaad331</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 07:53:44</sys_created_on>
+        <sys_id>833b77358386f21038159370ceaad34f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="x_event_mgmt_student" source="x_1054588_x_even_0">cb7143e18302721038159370ceaad3b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_event_mgmt_student">cb7143e18302721038159370ceaad3b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 07:53:44</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_fe3b77358386f21038159370ceaad331"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_fe3b77358386f21038159370ceaad331"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>0d8e5fb98382f21038159370ceaad3bf</sys_id>
+        <latest_snapshot>fe3b77358386f21038159370ceaad331</latest_snapshot>
+        <compiler_build>glide-zurich-07-01-2025__patch4-11-14-2025_12-03-2025_1405.zip</compiler_build>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=0d8e5fb98382f21038159370ceaad3bf^sys_idNOT INcb3b77358386f21038159370ceaad382"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"cb3b77358386f21038159370ceaad382","name":"plan","plan_signature":null}}</plan>
+        <plan_id>0d8e5fb98382f21038159370ceaad3bf</plan_id>
+        <snapshot>7ccbb7758386f21038159370ceaad3f5</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 07:53:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cb3b77358386f21038159370ceaad382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 07:53:44</sys_updated_on>
+        <trigger display_value="">4b3b77358386f21038159370ceaad37e</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=0d8e5fb98382f21038159370ceaad3bf"/>
+</record_update>
